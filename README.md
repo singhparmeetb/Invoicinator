@@ -3,8 +3,13 @@ An automated Python script to automatically import data from invoices to Excel s
 
 # Basic WorkFlow:
 ![Screenshot 2024-01-03 221959](https://github.com/singhparmeetb/Invoicinator/assets/80666749/3363d565-8949-4480-b493-d1e13cf9e09a)
+                                                        
+# Advance WorkFlow (With Error Handling):
+[Drive Link of flowchart](https://drive.google.com/file/d/1iFvppIC700w-8aSxTKDktInk21K4eY-c/view?usp=sharing)
 
+![Start (1)](https://github.com/singhparmeetb/Invoicinator/assets/80666749/4c8f7acd-5cd5-4280-ba3b-f8ddee0c3fb4)
 
+                                                                                                                
 # Different Edge Cases Identified (Along with their solutions)
 **Location of PDF Invoices:** Depending on the location of the invoices we might have to change the code for automation
     
@@ -23,5 +28,6 @@ An automated Python script to automatically import data from invoices to Excel s
 
 We can use the same flow of accessing the files via Google Drive (or mails based on the filter tag). We can then pre-process the data using the API and then find relevant information using regex.
 
-Cons: The user will be limited to using only the G-Suite and working with AppScript is very unintuitive.
+**Cons:** The user will be limited to using only the G-Suite and working with AppScript is very unintuitive.
 
+*This was my attempt at solving this problem, viewing it as a case study and keeping in mind all the test cases and various other factors.* **Thank you!**
