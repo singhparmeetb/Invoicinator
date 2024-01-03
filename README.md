@@ -30,4 +30,8 @@ We can use the same flow of accessing the files via Google Drive (or mails based
 
 **Cons:** The user will be limited to using only the G-Suite and working with AppScript is very unintuitive.
 
-*This was my attempt at solving this problem, viewing it as a case study and keeping in mind all the test cases and various other factors.* **Thank you!**
+# Note:
+The onlineIntegration.py file is not functional due to unforseen reason, but was built to handle the scenario where the pdfs and the excel itself is hosted on the cloud. It would have  made more sense to use app script to work with this scenario.
+
+# Finally,
+You have come a long way! *This was my attempt at solving this problem, viewing it as a case study and keeping in mind all the test cases and various other factors.I hope you would have liked my analysis and hard work.* **Thank you!**
